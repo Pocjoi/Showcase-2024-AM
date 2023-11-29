@@ -53,12 +53,11 @@ li a:hover{
     background-color:red;
 }
 
-body>div{
-    display: flex;
-    justify-content: center;
-    display:block;
-    position:relative;
+.header {
     padding: 60px;
     text-align: center;
-    flex-grow: 0;    
-}
+    background-image: url(/images/banner.png);
+    color: white;
+    font-size: 30px;
+  }
+  

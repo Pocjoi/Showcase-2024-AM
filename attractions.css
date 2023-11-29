@@ -60,3 +60,7 @@ div {
     flex-grow: inherit;
 }
 
+.about{
+    display: flex;
+    flex-wrap: wrap;
+}
