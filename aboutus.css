@@ -12,8 +12,8 @@ body {
 
 h2{
     display: flex;
-    justify-content: center
-    color;yellow
+    justify-content: center;
+    color:yellow;
 }
 
 
@@ -53,16 +53,12 @@ li a:hover{
     background-color:red;
 }
 
-
-
-
-
-div {
+body>div{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding:  10%;
-    margin: 5%;
-    flex-grow: inherit;
+    justify-content: center;
+    display:block;
+    position:relative;
+    padding: 60px;
+    text-align: center;
+    flex-grow: 0;    
 }
