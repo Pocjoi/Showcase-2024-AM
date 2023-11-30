@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=VT323&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Julius Sans One', sans-serif;
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color:yellow;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: solid;
+    color: rgb(0, 115, 215);
+}
+
+p{
+    color: aliceblue;
+}
+
+li {
+    display: inline;
+    float:left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 251, 0);
+}
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover{
+    background-color:red;
+}

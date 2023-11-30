@@ -10,12 +10,11 @@ body {
     background-size: cover;
 }
 
-h2{
+h2 {
     display: flex;
     justify-content: center;
-    color:yellow;
+    color: yellow;
 }
-
 
 h1 {
     display: flex;
@@ -24,13 +23,13 @@ h1 {
     color: rgb(0, 115, 215);
 }
 
-p{
+p {
     color: aliceblue;
 }
 
 li {
     display: inline;
-    float:left;
+    float: left;
 }
 
 ul {
@@ -40,6 +39,7 @@ ul {
     overflow: hidden;
     background-color: rgb(255, 251, 0);
 }
+
 li a {
     display: block;
     color: rgb(0, 0, 0);
@@ -49,16 +49,10 @@ li a {
 
 }
 
-li a:hover{
-    background-color:red;
+li a:hover {
+    background-color: red;
 }
 
-.header {
-    padding: 60px;
-    text-align: center;
-    background-image: url(/images/banner.png);
-    color: white;
-    font-size: 30px;
-    height: 10em;
-  }
-  
+img{
+    rotate: 5deg;
+}

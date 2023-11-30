@@ -9,7 +9,9 @@ body {
     font-family: 'Julius Sans One', sans-serif;
     background-image: url(/images/background.jpg);
     background-size: cover;
+ 
 }
+
 
 h2{
     display: flex;
@@ -55,4 +57,3 @@ li a:hover{
 }
 
 
-  

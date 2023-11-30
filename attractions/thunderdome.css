@@ -16,6 +16,11 @@ h2{
     color:yellow;
 }
 
+div{
+    display: flex;
+    justify-content: right;
+}
+
 
 h1 {
     display: flex;

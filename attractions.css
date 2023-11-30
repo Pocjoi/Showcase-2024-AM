@@ -45,11 +45,6 @@ li a {
 li a:hover{
     background-color:red;
 }
-
-
-
-
-
 div {
     display: flex;
     justify-content: space-between;
