@@ -14,8 +14,11 @@ body {
 }
 
 div{
+    margin: 2;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .header2{
@@ -33,13 +36,19 @@ div{
 }
 
 h3{
-    display: flex;
-    justify-content: center;
-  align-content: stretch;
+   color: aliceblue;
+    text-align: center;
+   width:100% ;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
 }
 
 p{
     color: aliceblue;
+    text-align: center;
+    flex-flow: row wrap;
+    width: 50%;
 }
 
 li {
@@ -67,3 +76,12 @@ li a:hover{
     background-color:red;
 }
 
+div{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+div>p{
+    text-align: center;
+}

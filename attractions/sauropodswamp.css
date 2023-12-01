@@ -26,6 +26,9 @@ h1 {
 
 p{
     color: aliceblue;
+    display: flex;
+    text-align: center;
+    padding: 10%;
 }
 
 li {
@@ -52,3 +55,10 @@ li a {
 li a:hover{
     background-color:red;
 }
+
+
+div{
+    display: flex;
+    justify-content: flex-end;
+}
+

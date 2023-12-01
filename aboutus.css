@@ -53,6 +53,33 @@ li a:hover {
     background-color: red;
 }
 
-img{
-    rotate: 5deg;
+.flex-container>article {
+    display: flex;
 }
+
+article>div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+article>.minecraft1{
+    width:50%;
+}
+
+article>.hero1{
+    width:43%;
+    font-size: x-large;
+}
+
+article>.minecraft2 {
+    width: 50%;
+    font-size: x-large;
+    margin-left: 6%;
+  }
+  
+  article>.hero2 {
+    width: 43%;
+  }
