@@ -15,6 +15,11 @@ h1 {
     justify-content: center;
     text-decoration: solid;
     color: rgb(0, 115, 215);
+    padding: 6em;
+  text-align: center;
+  background-image:url(images/);;
+  background-size: cover;
+  background-position: center;
 }
 
 p{

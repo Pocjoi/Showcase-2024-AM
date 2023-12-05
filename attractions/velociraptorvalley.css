@@ -22,6 +22,11 @@ h1 {
     justify-content: center;
     text-decoration: solid;
     color: rgb(0, 115, 215);
+    background-image:url(images/banner.png);;
+    background-size: cover;
+    background-position: center;
+    padding: 6em;
+  
 }
 
 p{
