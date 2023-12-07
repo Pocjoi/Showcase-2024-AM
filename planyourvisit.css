@@ -26,11 +26,16 @@ h1 {
     display: flex;
     justify-content: center;
     text-decoration: solid;
+    flex-direction: row;
     color: rgb(0, 115, 215);
-    background-image:url(images/banner.png);;
-    background-size: cover;
-    background-position: center;
-    padding: 6em;
+     padding: 6em;
+      text-align: center;
+      background-repeat: no-repeat;
+      
+      background-size: cover;
+      background-position: center;
+      padding: 6em;
+      background-image: url(/images/banner.png)
   
 }
 
@@ -63,14 +68,59 @@ li a:hover{
     background-color:red;
 }
 
+#products {
+    max-width: 50em;
+    margin: 0 auto;
+    display: grid;
+    gap: 1em;
+    margin-bottom: 2rem;
+}
+
 .product {
     border: solid 1px black;
-
+    background-color: rgb(0, 0, 0);
     padding: 0.5rem;
     transition: box-shadow 500ms ease;
     position: relative;
+
 }
+
 .product:hover,
 .cartItem:hover {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
+
+.prodImage {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
+
+.prodPrice::before {
+    content: "$ ";
+}
+
+.prodPrice {
+    display: inline-block;
+    margin-top: 0.5em;
+}
+
+.prodBtn,
+.removeBtn,
+#emptyCart {
+    display: block;
+    float: right;
+    background-color: dodgerblue;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 0.5em;
+    transition: background-color 500ms ease;
+}
+
+.prodBtn:hover {
+    background-color: black;
+    color: yellow;
+}
+

@@ -14,12 +14,17 @@ h1 {
     display: flex;
     justify-content: center;
     text-decoration: solid;
+    flex-direction: row;
     color: rgb(0, 115, 215);
-    padding: 6em;
-  text-align: center;
-  background-image:url(images/);;
-  background-size: cover;
-  background-position: center;
+     padding: 6em;
+      text-align: center;
+      background-repeat: no-repeat;
+      
+      background-size: cover;
+      background-position: center;
+      padding: 6em;
+      background-image: url(/images/banner.png)
+
 }
 
 p{
