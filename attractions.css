@@ -71,3 +71,23 @@ div {
     display: flex;
     flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ 
+@media only screen and (max-width: 768px) {
+ 
+  [class*="col-"] {
+    width: 100%;
+    
+  }
+}
