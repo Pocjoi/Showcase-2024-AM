@@ -77,6 +77,8 @@ article>div {
 
 article>.minecraft1{
     width:50%;
+    display:flex;
+    max-width: 100%;
 }
 
 article>.hero1{
@@ -117,6 +119,44 @@ article>.minecraft2 {
  
   [class*="col-"] {
     width: 100%;
+
     
   }
+.minecraft1{
+    display: flex;
+    
+
+    flex-direction: column;
+    
 }
+
+.minecraft2{
+    display: flex;
+
+    flex-direction: column;
+}
+
+.hero1{
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+.hero2{   display: flex;
+
+    flex-direction: column;
+}
+ 
+}
+
+.flex-container {
+    display:  flex;
+    flex-direction: column;
+}
+
+.flex-container article {
+    display: block;
+}
+}
+
